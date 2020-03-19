@@ -2,8 +2,8 @@ import GhostContentAPI from "@tryghost/content-api";
 
 // Create API instance with site credentials
 const api = new GhostContentAPI({
-  url: 'https://admin.themagicresource.com',
-  key: { process.env.GHOST_API_KEY },
+  url: process.env.GHOST_URL,
+  key: process.env.GHOST_API_KEY,
   version: "v3"
 });
 

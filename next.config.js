@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 require("dotenv").config();
 
-module.exports = withSass({{
+module.exports = {
   webpack: config => {
     config.node = {
       fs: 'empty'
@@ -16,4 +16,4 @@ module.exports = withSass({{
 
     return config
   }
-});
+};

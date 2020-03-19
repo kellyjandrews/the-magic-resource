@@ -1,8 +1,8 @@
 {
   "build": {
     "env": {
-      "GHOST_API_KEY": "@GHOST_API_KEY",
-      "GHOST_URL": "@GHOST_URL"
+      "GHOST_API_KEY": "@ghost_api_key",
+      "GHOST_URL": "@ghost_url"
     }
   }
 }

@@ -1,14 +1,18 @@
 import { useState, useEffect } from 'react';
 import { getPosts } from '../api/posts';
-import { Box, Button, Grid, Image, Link } from "@chakra-ui/core";
+import PostGridItem from '../components/PostGridItem';
+import FeaturedPostItem from '../components/FeaturedPostItem';
+import {Box, Flex, Grid, Heading} from "@chakra-ui/core";
 
 const Home = () => {
   const [posts, setPosts] = useState();
+  const [features, setFeatures] = useState();
 
   useEffect(() => {
     async function getPostList() {
       const postList = await getPosts();
       if (postList) {
+        setFeatures(postList.filter(post => post.featured === true));
         return setPosts(postList);
       }
     }
@@ -16,56 +20,18 @@ const Home = () => {
     getPostList();
 
   }, [])
-
+  console.table(posts);
+  console.log(features);
   return (
-    <Grid templateColumns="repeat(4, 1fr)" gap={12}>
-      {posts?.map(post => (
-        <Box
-          d="flex"
-          flexDir="column"
-          maxW="sm"
-          boxShadow="5px 5px 10px #888888"
-          borderWidth="1px"
-          rounded="lg"
-          overflow="hidden"
-        >
-          <Box
-            p="10"
-          >
-            <Image
-              src={post.feature_image}
-              alt={post.title}
-              boxShadow="5px 5px 10px #888888"
-            />
-          </Box>
-          <Box
-              p="5"
-              fontWeight="semibold"
-              as="h3"
-              isTruncated
-            >
-              {post.title}
-          </Box>
-          <Box
-            p="5"
-            fontWeight="normal"
-            as="p"
-          >
-            {post.excerpt}
-          </Box>
-          <Box
-            p="5"
-            alignSelf="flex-end"
-            mt="auto"
-          >
-            <Link href={`/${post.slug}`}>
-              <Button variantColor="green">Read More</Button>
-            </Link>            
-          </Box>
-        </Box>
-    ))}
-    </Grid>
-        
+    <Flex flexDirection="column">
+      <Box w={"100%"} mb={6}>
+        {features?.map(feature => <FeaturedPostItem {...feature} key={feature.id} />)}
+      </Box>
+      <Heading>Latest Posts</Heading>
+      <Grid autoColumns templateColumns={{ sm: "repeat(2, 1fr)", lg: "repeat(3, 1fr)", xl: "repeat(4, 1fr)" }} gap={16}>
+        {posts?.map(post => <PostGridItem {...post} key={post.id} />)}
+      </Grid>  
+    </Flex>  
   )
 }
 

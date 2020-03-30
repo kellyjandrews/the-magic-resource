@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { getPostBySlug } from '../api/posts';
+import xss from 'xss';
 
 const Post = () => {
   const router = useRouter();
@@ -26,7 +27,7 @@ const Post = () => {
     {post ? 
       <>
           <h1>{post.title}</h1>
-          <article dangerouslySetInnerHTML={{__html: post.html}} />
+          <article dangerouslySetInnerHTML={{__html: xss(post.html)}} />
       </>
       : <p>Loading...</p>
     }

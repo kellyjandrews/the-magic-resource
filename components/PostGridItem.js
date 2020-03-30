@@ -1,6 +1,6 @@
 import { Box, Button, Image, Link } from "@chakra-ui/core"; 
 
-const PostGridItem = ({feature_image, title, excerpt, slug}) => {
+const PostGridItem = ({ feature_image, published_at, slug, title}) => {
   return (
     <Box
       d="flex"
@@ -28,14 +28,6 @@ const PostGridItem = ({feature_image, title, excerpt, slug}) => {
         isTruncated
       >
         {title}
-      </Box>
-      <Box
-        p="5"
-        fontWeight="normal"
-        as="p"
-        display={{ base: "none", sm: "none", md: "none", lg: "block" }}
-      >
-        {excerpt}
       </Box>
       <Box
         p="5"

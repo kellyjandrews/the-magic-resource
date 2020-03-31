@@ -10,3 +10,13 @@
 .dot.active {
   background-color: #555;
 }
+
+.slider-container {
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+}

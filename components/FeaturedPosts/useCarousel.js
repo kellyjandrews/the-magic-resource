@@ -56,15 +56,12 @@ function carouselReducer(state, action) {
   }
 }
 
-function swiped(e, dispatch, length, dir) {
-  const t = threshold(e.event.target);
-  const d = dir * e.deltaX;
+function swiped(delta, dispatch, length, dir, container) {
+  const t = container.clientWidth * threshold;
+  const d = dir * delta;
 
   if (d >= t) {
-    dispatch({
-      type: dir > 0 ? 'next' : 'prev',
-      length,
-    });
+    dispatch(dir > 0 ? { type: 'next', length } : { type: 'prev', length });
   } else {
     dispatch({
       type: 'drag',

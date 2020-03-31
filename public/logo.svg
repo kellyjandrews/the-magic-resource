@@ -5,11 +5,36 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 219.69965 32.002674"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   sodipodi:docname="logo.svg"
+   width="219.69965mm"
    height="32.002674mm"
-   width="219.69965mm">
+   viewBox="0 0 219.69965 32.002674"
+   version="1.1"
+   id="svg8">
+  <sodipodi:namedview
+     inkscape:current-layer="g886"
+     inkscape:window-maximized="0"
+     inkscape:window-y="992"
+     inkscape:window-x="30"
+     inkscape:cy="52.144584"
+     inkscape:cx="407.82487"
+     inkscape:zoom="1.2235644"
+     showgrid="false"
+     id="namedview965"
+     inkscape:window-height="728"
+     inkscape:window-width="1714"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
   <defs
      id="defs2" />
   <metadata
@@ -25,23 +50,21 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-43.152609,-64.523957)"
-     id="layer1">
+     id="layer1"
+     transform="translate(-43.152609,-64.523957)">
     <g
-       transform="matrix(0.74412471,0,0,0.74412471,84.39896,-24.774665)"
-       id="g886">
-      <g
-         id="g1883">
-        <text
-           id="text876"
+       id="g886"
+       transform="matrix(0.74412471,0,0,0.74412471,84.39896,-24.774665)">
+      <text
+         id="text876"
+         y="162.7677"
+         x="-56.942822"
+         style="font-style:normal;font-weight:normal;font-size:61.9917px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.645746"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rainbow;-inkscape-font-specification:Rainbow;stroke-width:0.645746"
            y="162.7677"
            x="-56.942822"
-           style="font-style:normal;font-weight:normal;font-size:61.9917px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.645746"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rainbow;-inkscape-font-specification:Rainbow;stroke-width:0.645746"
-             y="162.7677"
-             x="-56.942822"
-             id="tspan874"><tspan
+           id="tspan874"><tspan
    style="letter-spacing:-1.42225px"
    id="tspan1126">THE</tspan><tspan
    style="letter-spacing:-1.77782px"
@@ -51,44 +74,58 @@
    style="letter-spacing:1.77782px"
    id="tspan1130"> </tspan> <tspan
    style="letter-spacing:0px;word-spacing:0px"
-   id="tspan888"
-   dx="0"><tspan
-     style="letter-spacing:-1.13069px"
-     id="tspan890">RES</tspan><tspan
-     style="letter-spacing:-1.56448px"
-     id="tspan1016">OUR</tspan><tspan
-     style="letter-spacing:-1.76359px"
-     id="tspan1014">CE</tspan></tspan></tspan></text>
-        <g
-           id="g1216"
-           transform="matrix(0.34740223,0,0,0.34740223,63.040161,88.10308)">
-          <path
-             transform="matrix(1.3079369,-0.41784101,0.41223103,1.3272415,-105.04126,13.107602)"
-             d="m 150.8125,196.54762 c -1.06058,0.98201 -44.64368,-13.82174 -46.02441,-14.24922 -1.38074,-0.42747 -45.704254,-12.83973 -46.024415,-14.24922 -0.32016,-1.40949 34.291821,-31.75169 35.352393,-32.7337 1.060572,-0.98201 33.971662,-33.16117 35.352392,-32.73369 1.38073,0.42747 10.35186,45.57343 10.67202,46.98291 0.32016,1.40949 11.73259,46.00091 10.67202,46.98292 z"
-             id="path1206"
-             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.78841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <path
-             id="path1208"
-             d="m 65.365664,173.92823 c 0,0 21.922618,-20.03274 42.711306,-20.03274 18.14286,0 42.33333,19.27678 42.33333,19.27678"
-             style="fill:none;stroke:#000000;stroke-width:6.61458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <circle
-             r="18.365192"
-             cy="172.65611"
-             cx="107.17509"
-             id="circle1210"
-             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.83647;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <circle
-             r="10.289877"
-             cy="173.3243"
-             cx="107.30873"
-             id="circle1212"
-             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:23.151;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <path
-             style="fill:none;stroke:#000000;stroke-width:6.61458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 150.4103,173.17227 c 0,0 -21.92262,20.03274 -42.71131,20.03274 -18.142858,0 -42.333329,-19.27678 -42.333329,-19.27678"
-             id="path1214" />
-        </g>
+   id="tspan888" /></tspan></text>
+      <g
+         id="g1216"
+         transform="matrix(0.34740223,0,0,0.34740223,62.329035,88.10308)">
+        <path
+           transform="matrix(1.3079369,-0.41784101,0.41223103,1.3272415,-105.04126,13.107602)"
+           d="m 150.8125,196.54762 c -1.06058,0.98201 -44.64368,-13.82174 -46.02441,-14.24922 -1.38074,-0.42747 -45.704254,-12.83973 -46.024415,-14.24922 -0.32016,-1.40949 34.291821,-31.75169 35.352393,-32.7337 1.060572,-0.98201 33.971662,-33.16117 35.352392,-32.73369 1.38073,0.42747 10.35186,45.57343 10.67202,46.98291 0.32016,1.40949 11.73259,46.00091 10.67202,46.98292 z"
+           id="path1206"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.78841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path1208"
+           d="m 65.365664,173.92823 c 0,0 21.922618,-20.03274 42.711306,-20.03274 18.14286,0 42.33333,19.27678 42.33333,19.27678"
+           style="fill:none;stroke:#000000;stroke-width:6.61458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <circle
+           r="18.365192"
+           cy="172.65611"
+           cx="107.17509"
+           id="circle1210"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.83647;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           r="10.289877"
+           cy="173.3243"
+           cx="107.30873"
+           id="circle1212"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:23.151;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:6.61458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 150.4103,173.17227 c 0,0 -21.92262,20.03274 -42.71131,20.03274 -18.142858,0 -42.333329,-19.27678 -42.333329,-19.27678"
+           id="path1214"
+           inkscape:connector-curvature="0" />
       </g>
+      <text
+         id="text985"
+         y="163.01315"
+         x="122.57618"
+         style="font-style:normal;font-weight:normal;font-size:62.105px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.355563"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rainbow;-inkscape-font-specification:Rainbow;stroke-width:0.355563"
+           y="163.01315"
+           x="122.57618"
+           id="tspan983"
+           sodipodi:role="line"><tspan
+             dy="0 0 -0.37"
+             id="tspan987"
+             style="letter-spacing:-1.50403px">RES</tspan><tspan
+             dy="0 0.37"
+             id="tspan1113"
+             style="letter-spacing:-0.764461px">OUR</tspan><tspan
+             id="tspan1111"
+             style="letter-spacing:-1.5147px">CE</tspan></tspan></text>
     </g>
   </g>
 </svg>

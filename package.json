@@ -20,6 +20,7 @@
     "postcss-preset-env": "^6.7.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
+    "react-swipeable": "^5.5.1",
     "tailwindcss": "^1.2.0",
     "xss": "^1.0.6"
   }

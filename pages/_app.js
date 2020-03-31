@@ -3,6 +3,7 @@ import Head from 'next/head';
 import '../styles/index.css'
 import { ThemeProvider } from "@chakra-ui/core";
 import Header from '../components/Header';
+import { Flex } from "@chakra-ui/core"; 
 
 function App({ Component, pageProps }) {
   return (
@@ -11,9 +12,9 @@ function App({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <Header />
-      <main className="flex p-6">
+      <Flex as="main" justify="center" p={6}>
         <Component {...pageProps} />
-      </main>
+      </Flex>
     </ThemeProvider>
   )
 }

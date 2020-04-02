@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { getPosts } from '../api/posts';
 import PostGridItem from '../components/PostGridItem';
 import FeaturedPostSlider from '../components/FeaturedPosts/FeaturedPostSlider';
-import { Divider, Flex, Grid, Heading} from "@chakra-ui/core";
+import { Flex, Grid, Heading} from "@chakra-ui/core";
 
 const Home = () => {
   const [posts, setPosts] = useState();
@@ -25,8 +25,7 @@ const Home = () => {
   return (
     <Flex flexDirection="column">
       <FeaturedPostSlider featureList={features} />
-      <Heading textAlign={"center"} >Latest Posts</Heading>
-      <Divider />
+      <Heading textAlign={"center"} pb="6" >Latest Posts</Heading>
       <Grid autoColumns templateColumns={{ sm: "repeat(2, 1fr)", lg: "repeat(3, 1fr)", xl: "repeat(4, 1fr)" }} gap={16}>
         {posts?.map(post => <PostGridItem {...post} key={post.id} />)}
       </Grid>  
